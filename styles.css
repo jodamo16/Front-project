@@ -355,3 +355,57 @@ h3 {
     box-shadow: 0 0 20px var(--font-light);
     width: 120px;
 }
+
+/* director section */
+.director-container {
+    width: 100vw;
+}
+
+.director-img-container {
+    text-align: center;
+}
+
+.dots, .director-img {
+    width: auto;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dots {
+    position: absolute;
+}
+
+.director-img {
+    position: relative;
+}
+
+.hubspot-container {
+    text-align: center;
+}
+
+.hubspot {
+    width: 130px;
+}
+
+.director-quote, .director-name {
+    color: var(--color-black);
+}
+
+/* trusted section */
+.trusted-header{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    color: var(--font-light);
+    text-transform: uppercase;
+}
+
+.trusted-brands {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trusted-imgs {
+    width: 5.5rem;
+    margin-bottom: 1rem;
+}
