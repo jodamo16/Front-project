@@ -439,7 +439,91 @@ h3 {
     display: block;
 }
 
+.feature-card p {
+    margin-bottom: 1.2rem;
+}
+
 .feature-header {
     display: inline-block;
     margin: 1.2rem 0;
+}
+
+/* hire section */
+.white-text {
+    color: var(--color-white);
+}
+
+.hire-container {
+    background-color: var(--bg-dark);
+    width: 100%;
+}
+
+.hire-head-container {
+    text-align: center;
+}
+
+.charlotte {
+    margin-bottom: 0;
+    margin-top: 3rem;
+}
+
+.charlotte-title {
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+.hire-header {
+    padding-top: 1.6rem;
+    margin-bottom: 0.8rem;
+}
+
+.people-img, .people-img-main {
+    border-radius: 50%;
+}
+
+.people-img-main {
+    height: 5.5rem;
+}
+
+.people-img {
+    height: 4rem;
+    margin-right: 1.3rem;
+    margin-bottom: 0.6rem;
+}
+
+.form-container {
+    padding-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+form {
+    background-color: var(--color-white);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hire-input {
+    padding: 0.7rem 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--font-light);
+    border-radius: 5px;
+}
+
+.checkbox {
+    display: inline-block;
+}
+
+.form-privacy {
+    color: var(--font-light);
+    border-bottom: 1px dotted var(--font-light);
+    max-width: fit-content;
+    margin-top: 0.5rem;
+}
+
+.form-btn {
+    max-width: max-content;
+    text-align: center;
+    margin: 1rem auto;
 }
