@@ -527,3 +527,75 @@ form {
     text-align: center;
     margin: 1rem auto;
 }
+
+/* footer */
+footer {
+    text-align: center;
+}
+
+.footer-lists a {
+    color: var(--font-light);
+}
+
+.footer-lists a:hover {
+    color: var(--primary-blue);
+}
+
+footer h3 {
+    margin-bottom: 0
+}
+
+footer ul {
+    margin-top: 0.3rem;
+    padding: 0;
+}
+
+.footer-lists li {
+    margin-bottom: 0.3rem;
+}
+
+.footer-contact img {
+    width: 120px;
+}
+
+.fa-location-arrow, 
+.fa-phone, 
+.fa-circle-info,
+.fa-circle-user {
+    margin-right: 0.3rem;
+}
+
+footer hr {
+    margin-bottom: 1rem;
+}
+
+.footer-socials {
+    margin: 2rem 0;
+}
+
+.fa-facebook-f,
+.fa-google,
+.fa-twitter,
+.fa-reddit {
+    width: 0.8rem;
+}
+
+.footer-social-link {
+    color: var(--font-light);
+    background-color: var(--icon-bg);
+    padding: 0.6rem;
+    border-radius: 5px;
+    margin: 0.7rem;
+}
+.footer-social-link:hover {
+    color: var(--icon-bg);
+    background-color: var(--font-light);
+}
+
+.countries {
+    border: none;
+    background-color: var(--icon-bg);
+    padding: 0.5rem 0.7rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
