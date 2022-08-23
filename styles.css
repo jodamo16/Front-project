@@ -394,16 +394,10 @@ h3 {
     .banner-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 1rem;
         max-width: 1020px;
-        padding-top: 5rem;
+        padding-top: 2rem;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .banner-header {
-        text-align: left;
-        margin-left: 2rem;
     }
 }
 
@@ -586,14 +580,6 @@ h3 {
 .price-container {
     margin-left: auto;
     margin-right: auto;
-}
-
-.price-header {
-    margin-bottom: 0.3rem;
-}
-
-.price-para {
-    margin-top: 0;
 }
 
 .price-card {
@@ -903,10 +889,6 @@ footer hr {
 
     .countries {
         margin-right: 2rem;
-    }
-
-    .footer-copyright {
-        margin: 1rem 2rem;
     }
 }
 
