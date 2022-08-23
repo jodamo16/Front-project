@@ -136,15 +136,16 @@ h3 {
 }
 
 .list-icon {
+    display: inline-block;
     height: 65px;
     width: 65px;
-    position: absolute;
+    position: relative;
     border-radius: 50%;
     background-color: var(--icon-bg);
 }
 
 .icon-dot {
-    position: relative;
+    position: absolute;
     color: var(--primary-blue);
     top: 34%;
     left: 40%;
@@ -411,12 +412,26 @@ h3 {
 }
 
 .why-header p {
-    margin-top: 0.3rem;
+    margin: 0.3rem 2rem;
     font-size: 1rem;
 }
 
 .why-list-container {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 250px;
+    margin: 3rem auto;
+}
+
+.why-items {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.6rem;
+}
+
+.why-list-container hr {
+    display: none;
 }
 
 .why-list {
@@ -425,15 +440,9 @@ h3 {
     text-align: left;
 }
 
-.why-list li {
-    padding-top: 2rem;
-}
-
 .why-list-text {
-    padding-top: 1.6rem;
     display: inline-block;
-    position: relative;
-    margin-left: 6rem;
+    margin: 0.3rem 1.2rem;
     color: var(--color-black);
 }
 
