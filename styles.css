@@ -249,6 +249,10 @@ h3 {
     position: relative;
 }
 
+.hero-head {
+    max-width: 400px;
+}
+
 .hero-text {
     text-align: center;
     margin-bottom: 3rem;
@@ -256,6 +260,7 @@ h3 {
 
 .hero-header {
     margin-bottom: 0.4rem;
+    font-size: 2.3rem;
 }
 
 .hero-text p {
@@ -389,20 +394,35 @@ h3 {
 .banner-img {
     width: 100%;
     padding: 0;
+    margin-bottom: -0.8rem;
 }
 
 @media screen and (min-width: 1024px) {
     .banner-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 2rem;
         max-width: 1020px;
         padding-top: 2rem;
         margin-left: auto;
         margin-right: auto;
     }
+
+    .banner-header {
+        text-align: left;
+        margin-left: 2rem;
+    }
+
+    .banner-btn {
+        margin-left: 0;
+    }
 }
 
 /* why section */
+.why-container {
+    margin: 0 auto;
+}
+
 .why-header {
     margin-bottom: 0;
 }
@@ -444,6 +464,36 @@ h3 {
     display: inline-block;
     margin: 0.3rem 1.2rem;
     color: var(--color-black);
+}
+
+@media screen and (min-width: 768px) {
+    .why-container {
+        max-width: 760px;
+    }
+
+    .why-header {
+        margin-left: auto;
+    }
+
+    .why-list-container {
+        flex-direction: row;
+        max-width: 700px;
+        justify-content: space-between;
+    }
+
+    .why-list-container hr {
+        display: block;
+        margin-top: 2rem;
+        width: 250px;
+    }
+
+    .why-items {
+        flex-direction: column;
+    }
+
+    .why-list-text {
+        margin-top: 0.9rem;
+    }
 }
 
 /* video banner */
@@ -589,6 +639,14 @@ h3 {
 .price-container {
     margin-left: auto;
     margin-right: auto;
+}
+
+.price-header {
+    margin-bottom: 0;
+}
+
+.price-para {
+    margin-top: 0;
 }
 
 .price-card {
